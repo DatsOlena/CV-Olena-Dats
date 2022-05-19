@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +21,10 @@ body {
     /*....................... Variables ............................*/
     --button-height: 50px;
     --button-width: 50px;
+}
 
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -252,9 +259,28 @@ p {
 /*....................... Scroll ............................*/
 
 
-.scrollTop {}
+.scrollTop {
+    position: fixed;
+    right: 40px;
+    bottom: 60px;
+    width: var(--button-width);
+    height: var(--button-height);
+    background-color: #03a9f4;
+    opacity: 40%;
+    text-align: center;
+    border-radius: 10px;
+}
 
-.scrollTop__link {}
+.scrollTop__link {
+    font-size: 30px;
+    line-height: var(--button-height);
+    color: #fff;
+    padding: 10px;
+}
+
+.scrollTop:active {
+    background-color: #068cca;
+}
 
 
 /*.................... Media Queries ........................*/
