@@ -13,6 +13,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+
+    /*....................... Variables ............................*/
+    --button-height: 50px;
+    --button-width: 50px;
+
 }
 
 .container {
@@ -244,6 +249,16 @@ p {
 }
 
 
+/*....................... Scroll ............................*/
+
+
+.scrollTop {}
+
+.scrollTop__link {}
+
+
+/*.................... Media Queries ........................*/
+
 @media (max-width: 1000px) {
     .container {
         margin: 10px;
@@ -259,13 +274,16 @@ p {
     .about .box {
         flex-direction: column;
     }
+
     .about .box .year_company {
         margin-bottom: 5px;
     }
+
     .interest ul {
         grid-template-columns: repeat(1, 1fr);
     }
-.skills .box {
-    grid-template-columns: repeat(1, 1fr);
-}
+
+    .skills .box {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
