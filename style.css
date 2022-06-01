@@ -186,11 +186,11 @@ p {
 .container .right_Side {
     position: relative;
     background: var(--color-white);
-    padding: 40px;
+    padding: 30px;
 }
 
 .about {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .about:last-child {
@@ -204,7 +204,7 @@ p {
 /*.....................Video...............................*/
 
 .about-video {
-    margin-top: 10px;
+    margin-top: 5px;
     max-width: 220px;
 }
 
@@ -249,6 +249,39 @@ p {
     margin: 20px 0;
 }
 
+/* Projects */
+.box-projects {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 5px;
+    justify-content: space-between;
+}
+
+.name-project {
+    color: var(--main-color);
+    margin-right: 5px;
+    text-transform: uppercase;
+    min-width: 130px;
+}
+
+.tools-project {
+    color: var(--additional-text-color);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 5px;
+    min-width: 130px;
+}
+
+.text-project {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.link-project {
+    color: var(--additional-text-color);
+}
+
+
 .about .box .year_company {
     min-width: 150px;
 }
@@ -264,7 +297,10 @@ p {
     color: var(--main-color-dark);
     font-size: 16px;
 }
-
+.position-text {
+    font-weight: 400;
+    font-size: 15px;
+}
 .skills .box {
     position: relative;
     width: 100%;
@@ -358,11 +394,14 @@ p {
 }
 
 @media (max-width: 600px) {
-    .about .box {
+    .about .box,
+    .box-projects {
         flex-direction: column;
     }
 
-    .about .box .year_company {
+    .about .box .year_company,
+    .name-project {
+     
         margin-bottom: 5px;
     }
 
