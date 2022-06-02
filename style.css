@@ -261,7 +261,7 @@ p {
     color: var(--main-color);
     margin-right: 5px;
     text-transform: uppercase;
-    min-width: 130px;
+    min-width: 140px;
 }
 
 .tools-project {
@@ -300,6 +300,7 @@ p {
 .position-text {
     font-weight: 400;
     font-size: 15px;
+    text-align: justify;
 }
 .skills .box {
     position: relative;
