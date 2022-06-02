@@ -39,6 +39,7 @@ body {
 
 a {
     text-decoration: none;
+    transition: all .3s ease-out;
 }
 
 p {
