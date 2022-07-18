@@ -145,6 +145,10 @@ p {
     font-weight: 300;
 }
 
+.contactInfo a {
+    color: var(--color-white);
+}
+
 .contactInfo.education li {
     margin-bottom: 15px;
 }
