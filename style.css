@@ -253,6 +253,21 @@ p {
     margin: 20px 0;
 }
 
+.download {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+}
+
+.download:hover::before {
+    content: "Download CV";
+}
+
+.download-button {
+    width: 60px;
+    height: 60px;
+}
+
 /* Projects */
 .box-projects {
     display: flex;
@@ -396,6 +411,12 @@ p {
     .interest ul {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .download {
+        position: absolute;
+        right: 120px;
+        bottom: 10px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -416,5 +437,11 @@ p {
 
     .skills .box {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .download {
+        position: absolute;
+        right: 120px;
+        bottom: 10px;
     }
 }
