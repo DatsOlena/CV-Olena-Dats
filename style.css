@@ -185,6 +185,16 @@ p {
     background: var(--main-color);
 }
 
+.references-icon {
+    color: var(--main-color);
+    font-size: 40px;
+    margin: auto;
+}
+
+/* .title-references {
+    margin-bottom: 10px;
+} */
+
 /*...........................Right side..........................*/
 
 .container .right_Side {
@@ -253,6 +263,8 @@ p {
     margin: 20px 0;
 }
 
+/*........................... Download ......................*/
+
 .download {
     position: absolute;
     right: 20px;
@@ -268,7 +280,12 @@ p {
     height: 60px;
 }
 
-/* Projects */
+.download-icon {
+    color: var(--main-color);
+}
+
+/*......................... Projects ........................*/
+
 .box-projects {
     display: flex;
     flex-direction: row;
