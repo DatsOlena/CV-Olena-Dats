@@ -287,7 +287,6 @@ p {
 /*......................... Projects ........................*/
 
 .box-projects {
-    display: flex;
     flex-direction: row;
     margin: 20px 0 5px;
     justify-content: space-between;
@@ -309,14 +308,10 @@ p {
 }
 
 .text-project {
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.link-project {
     color: var(--additional-text-color);
+    font-weight: 500;
+    font-size: 14px;
 }
-
 
 .about .box .year_company {
     min-width: 150px;
@@ -333,6 +328,11 @@ p {
     color: var(--main-color-dark);
     font-size: 16px;
 }
+
+.about .box .text h4 span{
+    text-transform: lowercase;
+}
+
 .position-text {
     font-weight: 400;
     font-size: 15px;
@@ -388,6 +388,24 @@ p {
     font-size: 18px;
     width: 20px;
 }
+
+/*....................... Columns ............................*/
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    width: 50%;
+    flex-wrap: wrap;
+  }
 
 
 /*....................... Scroll ............................*/
@@ -452,6 +470,14 @@ p {
     .name-project {
      
         margin-bottom: 5px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .column {
+        width: 100%;
     }
 
     .interest ul {
