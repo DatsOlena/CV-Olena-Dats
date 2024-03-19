@@ -273,7 +273,7 @@ p {
 .download {
     position: absolute;
     right: 20px;
-    bottom: 5px;
+    bottom: 60px;
 }
 
 .download:hover::before {
@@ -343,6 +343,7 @@ p {
     font-size: 15px;
     text-align: justify;
 }
+
 .skills .box {
     position: relative;
     width: 100%;
