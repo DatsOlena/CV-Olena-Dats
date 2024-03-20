@@ -462,7 +462,7 @@ p {
 
     .download {
         position: absolute;
-        right: 120px;
+        right: 70px;
         bottom: 10px;
     }
 }
@@ -495,9 +495,4 @@ p {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .download {
-        position: absolute;
-        right: 120px;
-        bottom: 10px;
-    }
 }
