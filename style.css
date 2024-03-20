@@ -273,7 +273,7 @@ p {
 .download {
     position: absolute;
     right: 20px;
-    bottom: 60px;
+    bottom: 30px;
 }
 
 .download:hover::before {
