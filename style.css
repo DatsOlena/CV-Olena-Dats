@@ -414,6 +414,14 @@ p {
     flex-wrap: wrap;
   }
 
+/*....................... Projects ............................*/
+  .box-img-project {
+  }
+
+.img-project {
+    max-width: 200px;
+    height: auto;
+}
 
 /*....................... Scroll ............................*/
 
@@ -464,6 +472,11 @@ p {
         position: absolute;
         right: 70px;
         bottom: 10px;
+    }
+
+   .box-img-project .img-project {
+        max-width: 300px;
+        height: auto;
     }
 }
 
