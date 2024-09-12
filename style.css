@@ -296,12 +296,55 @@ p {
     margin: 20px 0 5px;
     justify-content: space-between;
 }
+/*    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), transparent);*/
 
 .name-project {
     color: var(--main-color);
     margin-right: 5px;
     text-transform: uppercase;
     min-width: 140px;
+}
+
+.box-img-project{
+    position: relative;
+}
+
+.img-project {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.box-overlay {
+    content: "Zoom in";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+  }
+
+.img-project:hover {
+
+}
+
+.fa-magnifying-glass {
+    cursor: pointer;
+}
+
+.box-overlay:hover {
+    opacity: 1;
 }
 
 .tools-project {
@@ -317,6 +360,8 @@ p {
     font-weight: 500;
     font-size: 14px;
 }
+
+/*......................... Experience ........................*/
 
 .about .box .year_company {
     min-width: 150px;
@@ -414,14 +459,6 @@ p {
     flex-wrap: wrap;
   }
 
-/*....................... Projects ............................*/
-  .box-img-project {
-  }
-
-.img-project {
-    max-width: 200px;
-    height: auto;
-}
 
 /*....................... Scroll ............................*/
 
@@ -482,13 +519,13 @@ p {
 }
 
 
-@media(min-width: 1030px){
-    .img-project:hover,
-    .img-project:focus {
+ @media(min-width: 1030px){
+    .zoomIn {
        scale: 2.5;
-       transition: transform 0.5s;
+       transition: all 500ms ease;
+       Z-index: 1000;
    }
-}
+} 
 
 @media (max-width: 600px) {
     .about .box,
