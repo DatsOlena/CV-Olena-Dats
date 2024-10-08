@@ -307,12 +307,14 @@ p {
 
 .box-img-project{
     position: relative;
+    height: 170px;
+    width: 100%;
 }
 
 .img-project {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     border-radius: 5px;
 }
