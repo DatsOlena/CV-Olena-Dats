@@ -220,6 +220,14 @@ p {
     text-align: justify;
 }
 
+.about-text {
+    margin-bottom: 10px;
+}
+
+.about-text-keywords {
+    font-weight: 600;
+}
+
 /*.....................Video...............................*/
 
 .about-video {
@@ -273,11 +281,12 @@ p {
 .download {
     position: absolute;
     right: 20px;
-    bottom: 30px;
+    bottom: 44px;
 }
 
 .download:hover::before {
     content: "Download CV";
+    color: var(--color-white);
 }
 
 .download-button {
