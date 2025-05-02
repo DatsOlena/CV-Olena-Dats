@@ -64,6 +64,9 @@ p {
     position: relative;
     background: var(--background-aside-color);
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .profileText {
