@@ -173,21 +173,8 @@ p {
     color: var(--color-white);
 }
 
-.contactInfo.languages .percent {
-    position: relative;
-    width: 100%;
-    height: 6px;
-    background: var(--color-dark);
-    display: block;
-    margin-top: 5px;
-}
-
-.contactInfo.languages .percent div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: var(--main-color);
+.contactInfo.languages .text-language {
+    color: var(--main-color);
 }
 
 .references-icon {
