@@ -267,18 +267,13 @@ p {
 
 .download {
     position: absolute;
-    right: 20px;
-    bottom: 44px;
+    right: 34px;
+    top: 16px;
 }
 
 .download:hover::before {
     content: "Download CV";
-    color: var(--color-white);
-}
-
-.download-button {
-    width: 60px;
-    height: 60px;
+    color: var(--main-color);
 }
 
 .download-icon {
