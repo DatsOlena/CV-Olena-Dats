@@ -384,6 +384,11 @@ p {
     font-weight: 600;
 }
 
+.about .box .year_company span{
+    color: var(--additional-text-color);
+    font-size: 14px;
+}
+
 .about .box .text h4 {
     text-transform: uppercase;
     color: var(--main-color-dark);
