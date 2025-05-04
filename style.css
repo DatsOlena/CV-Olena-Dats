@@ -544,6 +544,10 @@ p {
         display: block;
     }
 
+    .languages .row {
+        display: flex;
+    }
+
     .column {
         width: 100%;
     }
